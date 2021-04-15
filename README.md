@@ -11,5 +11,5 @@ The overview of this analysis is to provide the number of retiring employees by 
 o	How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 There needs to be several successful roles to be filled to provide a clear transition.
 o	Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-There are enoug![employee](https://user-images.githubusercontent.com/74515412/114804033-906da400-9d6e-11eb-9d80-27e491069606.PNG)
-h qualified retirement ready employees to mentor the next generation.
+There are enough qualified retirement ready employees to mentor the next generation.![employee](https://user-images.githubusercontent.com/74515412/114804033-906da400-9d6e-11eb-9d80-27e491069606.PNG)
+
