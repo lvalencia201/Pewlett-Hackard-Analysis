@@ -1,19 +1,2 @@
-drop table if exists public.retirement_titles;
-select e.emp_no,e.first_name, e.last_name
-,t.from_date,t.to_date
-into public.retirement_titles 
-from public.employee e
-inner join public.title t
-on e.emp_no = t.emp_no
-where e.birth_date >='1952-01-01' and e.birth_date<= '1955-12-31';
-drop table if exists public.mentorship_eligibility;
-select e.emp_no,e.first_name, e.last_name
-,t.title 
-,de.from_date,de.to_date
-into public.mentorship_eligibility
-from public.employee e
-inner join public.title t
-on e.emp_no = t.emp_no
-inner join public.department_employee de
-on e.emp_no=de.emp_no
-where e.birth_date >='1965-01-01' and e.birth_date<= '1965-01-01';
+SELECT emp_no, first_name, last_name, title, from_date, to_date
+	FROM public.mentorship_eligibility;
